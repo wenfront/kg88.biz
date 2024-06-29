@@ -97,9 +97,9 @@ document.querySelector("#head").innerHTML = `
           </div>
         </div>
         <!-- link-bottom -->
-        <div class="flex w-full -z-50">
+        <div class="flex w-[250px] fixed top-0 z-50">
           <div
-            class="menu transition-all duration-300 left-[-100%] w-[50%] h-screen fixed md:hidden space-y-4 text-black font-medium uppercase bg-zinc-300 py-4"
+            class="menu transition-all duration-300 left-[-100%] w-[230px] h-screen fixed md:hidden space-y-4 text-black font-medium uppercase bg-zinc-300 py-4"
             id="menu"
           >
             <div class="absolute right-2 top-2">
